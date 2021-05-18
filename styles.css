@@ -1,0 +1,46 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;  
+  font-family: Helvetica, sans-serif;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#text-center {
+  font-size: 25px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica;
+  text-align: left;
+}
+
+.navbar-brand {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+
+.card-body {
+    /*float: right;*/
+    background-color: #C0C0C0;
+    border: 2px black solid;
+    position: relative;
+    margin: 10px;
+}
+
+.row { 
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
